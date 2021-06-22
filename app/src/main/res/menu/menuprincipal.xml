@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/action_setting"
+        android:icon="@drawable/ic_baseline_menu_24"
+        android:orderInCategory="100"
+        android:title="Camara"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/bt_vegan"
+                android:icon="@drawable/ic_baseline_food_bank_24"
+                android:title="Vegan" />
+            <item
+                android:id="@+id/bt_comida"
+                android:icon="@drawable/ic_baseline_fastfood_24"
+                android:title="Comida Rapida" />
+            <item
+                android:id="@+id/bt_bebestible"
+                android:icon="@drawable/ic_baseline_sports_bar_24"
+                android:title="Bebestible" />
+        </menu>
+
+    </item>
+
+
+</menu>
+
